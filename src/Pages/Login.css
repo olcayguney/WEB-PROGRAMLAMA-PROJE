@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.login-form .ant-input,
+.login-form .ant-select-selector {
+  height: 40px;
+  border-radius: 4px;
+}
+
+.login-form .ant-btn-primary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  height: 40px;
+  font-size: 16px;
+}
+
+.login-form .ant-btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+.toggle-button {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  color: #4CAF50;
+}
+
+.toggle-button:hover {
+  color: #388E3C;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 2px solid #388E3C;
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-username {
+  font-size: 16px;
+  margin-top: 5px;
+}
